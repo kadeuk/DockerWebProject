@@ -1,0 +1,15 @@
+version: '3'
+services:
+  frontend:
+    image: nginx:latest
+    ports:
+      - '8080:80'
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+    restart: always
+
+  backend:
+    build: ./backend
+    ports:
+      - '3000:3000'
+    restart: always
