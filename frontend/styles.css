@@ -1,9 +1,21 @@
-h1 {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  text-align: center;
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background: yellowgreen;
 }
 
-.title {
-  color: blue;
+.container {
+  width: 980px;
+  margin: auto;
+}
+
+.container-left {
+}
+
+.logo {
+}
+
+.menu {
 }
